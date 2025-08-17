@@ -1,0 +1,45 @@
+Tags:
+
+    <!DOCTYPE html>  -  Declares the document type, specifying it as HTML5.  
+    <html>  -  Root element of an HTML document; contains all other elements.  
+    <head>  -  Contains meta-information, including the title displayed in the browser tab.  
+        * `<link rel="icon">` specifies the favicon (a small icon displayed in the browser tab).  
+        * `type` defines the image type (e.g., `image/png`, `image/x-icon`).  
+        * `href` specifies the path to the favicon file.  
+
+    <h1>..<h-number>  -  Defines headings; <h1> is the largest, <h6> is the smallest.  
+    <p>  -  Paragraph of text.  
+     * `<b>` for bold text.  
+     * `<i>` for italic text.  
+     * `<u>` for underlined text.  
+     * `<del>` for strikethrough (deleted) text.  
+     * `<big>` for slightly larger text.  
+     * `<small>` for slightly smaller text.  
+     * `<sub>` for subscript text (e.g., H₂O).  
+     * `<sup>` for superscript text (e.g., x²).  
+     * `<tt>` for monospaced text.  
+     * `<mark>` for highlighted text with a background color (can include a `style` attribute to set the color, e.g., `style="background-color: lightgreen;"`). 
+    <pre>  -  Preformatted text; preserves spaces, line breaks, and indentation exactly as written.
+    <br>  -  Inserts a line break in the content (forces the content following it to move to the next line). 
+    <hr>  -  Adds an horizontal lines 
+    <!-- [text] -->  -  Comments
+
+    <a>  -  Defines a hyperlink. 
+        * `href` attribute specifies the link destination (could also be used to send mails using 'mailto:[e-mail address]')
+        * `target="_blank"` opens the link in a new tab.  
+        * 'title="[text]' - adds hover [text] to the link
+
+    <img>  -  Embeds an image.  
+        * `src` specifies the image path or URL.  
+        * `alt` provides alternate text if the image cannot be displayed.  
+        * `title="[text]"` adds hover [text] to the image.  
+        * `height` and `width` specify the image size.
+        
+    <audio>  -  Embeds an audio file in the document.  
+        * `controls` adds playback controls like play, pause, and volume.  
+        * `autoplay` starts playback automatically when the page loads.  
+        * `loop` repeats the audio indefinitely.  
+        * `muted` starts playback with the audio muted.  
+        * `<source>` specifies the audio file and format (e.g., `audio/mpeg` for MP3).  
+        * Can include fallback formats for unsupported audio types.  
+        * Displays a fallback message for unsupported browsers (e.g., "Your browser does not support the audio element."). 
