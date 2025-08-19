@@ -43,3 +43,35 @@ Tags:
         * `<source>` specifies the audio file and format (e.g., `audio/mpeg` for MP3).  
         * Can include fallback formats for unsupported audio types.  
         * Displays a fallback message for unsupported browsers (e.g., "Your browser does not support the audio element."). 
+
+    <ul> - Unordered list (bullets).  
+        * <li> defines a list item.  
+
+    <ol> - Ordered list (numbered).  
+        * <li> defines a list item.  
+
+    <dl> - Description list.  
+        * <dt> defines the term.  
+        * <dd> defines the description.  
+
+    <table> - Creates a table.  
+        * <tr> defines a row.  
+        * <th> defines a table header (bold and centered by default).  
+        * <td> defines a table cell (data).  
+        * Attributes:  
+            - `border` adds a border around the table.  
+            - `cellpadding` adds space inside each cell.  
+            - `cellspacing` adds space between cells. 
+
+    <button> - Creates a clickable button.  
+        * Attributes:  
+            - `type` specifies the button type (`button`, `submit`, `reset`).  
+            - `disabled` makes the button unclickable (grayed out).  
+            - `name` and `value` can be used to identify the button in forms.  
+            - `style` allows inline CSS styling (e.g., colors, borders, size). 
+    
+    JavaScript + <button>  
+        * The `onclick` attribute can run JavaScript when the button is clicked.  
+        * Works together with <script> tags that define functions.  
+        * Example:
+            <button onclick="doSomething()">Click Me</button>
