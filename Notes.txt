@@ -75,3 +75,38 @@ Tags:
         * Works together with <script> tags that define functions.  
         * Example:
             <button onclick="doSomething()">Click Me</button>
+
+
+    <form> - Defines an input form.  
+        * Attributes:  
+            - `action` specifies where the form data is sent (URL or script).  
+            - `method` defines how to send data (`GET` or `POST`).  
+            - `enctype` specifies encoding type for file uploads (`multipart/form-data`).  
+
+    <input> - Creates input fields.  
+        * Common types:  
+            - `text` → single-line text field.  
+            - `password` → hidden characters.  
+            - `email` → requires email format.  
+            - `tel` → telephone number, can use `pattern` for validation.  
+            - `date` → date picker.  
+            - `number` → numeric input with `min`/`max`/`value`.  
+            - `radio` → choose one option (grouped with `name`).  
+            - `checkbox` → toggle option(s).  
+            - `file` → file upload.  
+            - `submit` → submit button.  
+            - `reset` → reset form values.  
+        * Attributes:  
+            - `id` uniquely identifies the element (used with <label>).  
+            - `placeholder` shows hint text.  
+            - `minlength`, `maxlength` set input length limits.  
+            - `pattern` defines regex validation.  
+            - `value` sets a default.  
+
+    <label> - Defines labels for inputs; linked with `for="[id]"`.  
+
+    <select> - Dropdown list.  
+        * <option> defines an item in the list.  
+
+    <textarea> - Multi-line text input.  
+        * Attributes: `rows`, `cols`.  
